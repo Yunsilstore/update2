@@ -1604,7 +1604,15 @@ if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: trol
             but = [
             { buttonId: `${prefix}menu`, buttonText: { displayText: 'BACK MENU🏘️' }, type: 1 },
                  ]
-            Ryuu.sendMessage(from, sorce, image, {quoted: mek, caption: '┏━━━━━━━━━━━━━━━━━━━━┃*PAYMENT YUNSIL*┣━━━━━━━━━━━━━━━━━━━━┣⊱ Scan untuk pembayaran\n┣━━✿ NAMA YUNSIL STORE\n┣⊱ terimakasih 😸┗━━━━━━━━━━━━━━━━━━━━\n\nJANGAN LUPA BUKTI TRANSAKSI😼'})
+            Ryuu.sendMessage(from, sorce, image, {quoted: mek, caption: 'Hallo, silahkan scan untuk melakukan pembayaran💰
+
+╔════════════════════
+
+║ *PAYMENT YUNSIL STORE*
+
+╠════════════════════
+
+║ *TERIMAKASIH :)*'})
             break
       case 'aov':
      if (!isUser) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: troli}) 
